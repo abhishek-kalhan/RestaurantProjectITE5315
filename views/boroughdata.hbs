@@ -1,0 +1,41 @@
+<h3>List of books</h3>
+
+<table border="1">
+
+  <tr>
+
+    <td>Address</td>
+
+    <td>borough</td>
+
+    <td>cuisine</td>
+
+    <td>grades</td>
+
+    <td>name</td>
+
+    <td>restaurant id</td>
+
+  </tr>
+
+  {{#each boroughdata}}
+
+    <tr>
+
+      <td>{{this.address}}</td>
+
+      <td>{{this.borough}}</td>
+
+      <td>{{this.cuisine}}</td>
+
+      <td>{{this.grades}}</td>
+
+      <td>{{this.name}}</td>
+
+      <td>{{this.restaurant_id}}</td>
+
+    </tr>
+
+  {{/each}}
+
+</table>
