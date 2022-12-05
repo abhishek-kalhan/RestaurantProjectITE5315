@@ -183,8 +183,8 @@ app.get(
 
 //
 app.get("/api/pageborough/", async function (req, res) {
-  // use mongoose to get all books in the database
-  res.render("allbook");
+  // use mongoose to get all restaurant in the database
+  res.render("alldata");
 });
 
 app.post("/api/insert/data", function (req, res) {
