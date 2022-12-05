@@ -31,7 +31,7 @@ mongoose.connect(database.url);
 
 var Restaurant = require("./models/restaurant");
 
-app.get("/welcome", async (req, res) => {
+app.get("/", async (req, res) => {
   res.render("welcomePage");
 })
 
